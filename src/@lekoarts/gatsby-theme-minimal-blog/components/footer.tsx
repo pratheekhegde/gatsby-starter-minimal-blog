@@ -21,7 +21,7 @@ const Footer = () => {
       }}
     >
       <div>
-        &copy; {new Date().getFullYear()} by {siteTitle}. All rights reserved.
+      {siteTitle}
       </div>
     </footer>
   )
