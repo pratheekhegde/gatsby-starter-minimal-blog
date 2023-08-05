@@ -10,7 +10,7 @@ const Header = () => {
   const { navigation: nav } = useMinimalBlogConfig()
 
   return (
-    <header sx={{ mb: [3,2] }}>
+    <header sx={{ mb: [5, 6] }}>
       <Flex sx={{ alignItems: `center`, justifyContent: `space-between` }}>
          <HeaderTitle />
         <ColorModeToggle />
